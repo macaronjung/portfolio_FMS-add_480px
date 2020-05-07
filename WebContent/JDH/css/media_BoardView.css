@@ -1,0 +1,109 @@
+@media screen and (max-width: 480px) {
+  /* header */
+  header .container {
+    margin-left: 0;
+    width: 480px;
+  }
+  header .container #home {
+    margin-left: 5px;
+  }
+  header .container .box {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    width: 300px;
+  }
+  header .container .box ul {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 250px;
+  }
+  header .container .box ul li {
+    /* font-size: 16px; */
+    margin-left: 10px;
+  }
+  header .container .box ul li a {
+    font-size: 0.8em;
+  }
+  header .container #menu {
+    margin: 20px 10px;
+  }
+
+  /* logout */
+  .logout button {
+    background: #FED057;
+    border: 1px solid #FED057;
+    color: #FFF;
+    font-family: 'Khand';
+    font-size: 20px;
+    font-weight: bold;
+    height: 4.5%;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+  }
+  .logout button:hover {
+    background-color: #fff;
+    color: #FED057;
+  }
+
+  /* ----------------------------------------------------- */
+  /* 메인 박스 위치 및 크기 수정 */
+  .content {
+    width: 100%;
+  }
+  
+  /* 사이드 네비 위치 수정 */
+  .snb {
+    padding-top: 30%;
+    padding-right: 10px;
+    height: 50%;
+    width: 25%;
+}
+
+  .snb>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 56px;
+  }
+  .snb>ul>li {
+    margin-top: -9px;
+}
+  .snb>ul>li>a {
+    font-size: 25px;
+  }
+  
+  /* 게시판 뷰 최상단 크기 조절 */
+  table.boardContent {
+    font-size: 14px;
+}
+/* 게시판 글 작성자 폰트 크기 조절 */
+td.boardMaker_view.board_viewtext {
+    font-size: 9px;
+}
+/* 게시판 하단 버튼 4개 위치 조절 */
+button.board_update.board_button {
+    margin-left: 2px;
+}
+
+  /* 푸터 위치 수정 */
+  footer {
+  width: 0;
+    height: 0;
+    margin-top: 0;
+    top: 0;
+    }
+  .footer {
+  display: none;
+}
+
+  /* -------------------------------------- */
+}

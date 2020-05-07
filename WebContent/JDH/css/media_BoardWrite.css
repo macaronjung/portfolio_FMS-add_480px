@@ -1,0 +1,104 @@
+@media screen and (max-width: 480px) {
+  /* header */
+  header .container {
+    margin-left: 0;
+    width: 480px;
+  }
+  header .container #home {
+    margin-left: 5px;
+  }
+  header .container .box {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    width: 300px;
+  }
+  header .container .box ul {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 250px;
+  }
+  header .container .box ul li {
+    /* font-size: 16px; */
+    margin-left: 10px;
+  }
+  header .container .box ul li a {
+    font-size: 0.8em;
+  }
+  header .container #menu {
+    margin: 20px 10px;
+  }
+
+  /* logout */
+  .logout button {
+    background: #FED057;
+    border: 1px solid #FED057;
+    color: #FFF;
+    font-family: 'Khand';
+    font-size: 20px;
+    font-weight: bold;
+    height: 4.5%;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+  }
+  .logout button:hover {
+    background-color: #fff;
+    color: #FED057;
+  }
+
+  /* ----------------------------------------------------- */
+  /* 메인 박스 위치 및 크기 수정 */
+  .content {
+    width: 100%;
+  }
+  
+  /* 사이드 네비 위치 수정 */
+  .snb {
+    padding-top: 33%;
+    height: 50%;
+    width: 28%;
+}
+
+  .snb>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 56px;
+  }
+  .snb>ul>li {
+    margin-top: -9px;
+}/* 게시판 좌측 사이드 네비 크기 및 위치 조정 */
+  .boardWrite_snb>ul>li>a {
+    position: relative;
+    font-size: 16px;
+    top: 63px;
+}
+
+/* 작성하기 버튼 위치 조정 */
+.board_writebutton {
+    position: relative;
+    margin-top: 18px;
+    left: 250%;
+}
+
+  /* 푸터 위치 수정 */
+  footer {
+  width: 0;
+    height: 0;
+    margin-top: 0;
+    top: 0;
+    }
+  .footer {
+  display: none;
+}
+
+  /* -------------------------------------- */
+}

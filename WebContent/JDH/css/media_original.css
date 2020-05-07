@@ -1,0 +1,144 @@
+@media only screen and (max-width: 430px) {
+  /* header */
+  header .container {
+    margin-left: 0;
+    width: 430px;
+  }
+  header .container #home {
+    margin-left: 5px;
+  }
+  header .container .box {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    width: 300px;
+  }
+  header .container .box ul {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 250px;
+  }
+  header .container .box ul li {
+    /* font-size: 16px; */
+    margin-left: 10px;
+  }
+  header .container .box ul li a {
+    font-size: 0.9em;
+  }
+  header .container #menu {
+    margin: 20px 10px;
+  }
+
+  /* logout */
+  .logout button {
+    background: #FED057;
+    border: 1px solid #FED057;
+    color: #FFF;
+    font-family: 'Khand';
+    font-size: 20px;
+    font-weight: bold;
+    height: 4.5%;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+  }
+  .logout button:hover {
+    background-color: #fff;
+    color: #FED057;
+  }
+}
+
+/* mainbox display none */
+.hero {
+  display: none;
+}
+
+#mySidenav {
+  display: none;
+}
+
+#TOP {
+  display: none;
+}
+
+.content.clearfix {
+  display: contents;
+}
+
+.content.clearfix .container1 {
+  display: none;
+}
+
+/* main */
+.content.clearfix .container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.sc-T {
+  /* border: 4px solid white; */
+  width: 50%;
+  position: relative;
+  top: 14%;
+  left: 30%;
+  object-fit: contain;
+}
+
+img.sc-T_ {
+  border-radius: 5%;
+}
+
+.shortcut {
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  background-color: #26394E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20%;
+  margin-left: 8%;
+}
+
+.snip {
+  position: relative;
+  overflow: hidden;
+  /* margin-left: 2.5%; */
+  width: 50%;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background-color: #FED057;
+  float: left;
+}
+
+.ic {
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  /* bottom: 16%; */
+  justify-content: space-evenly;
+  top: 26%;
+  left: 9%;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  margin-top: 0%;
+  position: relative;
+  background-color: #222;
+}
